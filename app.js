@@ -1,9 +1,8 @@
 require("dotenv").config();
 
-//const SECRET_KEY = "your_secret_key_here";
+const SECRET_KEY = process.env.SECRET_KEY;
 
 
-console.log("Secret key:", SECRET_KEY);
 
 const http = require("http");
 const hostname = "127.0.0.1"
