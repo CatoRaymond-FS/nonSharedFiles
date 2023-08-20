@@ -1,6 +1,6 @@
-require("dotenv").config("./.env")
+require("dotenv").config();
 
-const SECRET_KEY = "your_secret_key_here";
+//const SECRET_KEY = "your_secret_key_here";
 
 
 console.log("Secret key:", SECRET_KEY);
